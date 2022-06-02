@@ -123,7 +123,7 @@ cursor: pointer;
 
 #rodape{
 
-padding: 200px;
+margin: 20px;
 
 }
 
@@ -147,13 +147,49 @@ padding: 200px;
     background-image: url(arcond1.jpg);
     background-size: 100% 100%;
     border-radius: 10px;
+    text-align: center;
 }
 
 #infoprod{
 
+    
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    color: rgb(54, 54, 92);
     display: flexbox;
     display: inline;
     display: flex;
-    display: ;
+    text-align: center;
     
+    
+}
+
+#botaocomprar {
+
+    margin-left: 35px;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    background-color: rgb(91, 216, 91);
+
+}
+
+#botaoaddcar{
+
+    
+    margin-left: 35px;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    background-color: rgb(216, 214, 91);
+}
+
+#botaocomprar:hover{
+
+    transition: 0.5ms;
+    opacity: 10px;
 }
