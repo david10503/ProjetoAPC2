@@ -53,14 +53,18 @@
 	 echo"<div id='codigo'>" ;
 	 echo"<div id='img'></div>";
 	 echo"<div id='infoprod'>";
-	 echo "<br>Código: ".$reg['codigo'];
+	 echo "Preço: R$".$reg['preco']."<br>";
+	 
+	
+	 echo $reg['nome'].' '.$reg['descricao']."<br>";
+	 
+     
+     //echo "Imagem: ".$reg['imagem'];
+	 echo "Quantidade disponível: ".$reg['quantidade']."<hr></div>";
+	 echo"<form action='comprar.php'><input type='SUBMIT' name='btncomprar'  id='botaocomprar' value=COMPRAR>";
+	 echo"<input type='SUBMIT' name='btnaddcompra'  id='botaoaddcar' value=CARRINHO></form>";
 	 echo"</div>";
-	 echo "Produto: ".$reg['nome'];
-	 echo "Preço: ".$reg['preco'];
-     echo "Descrição: ".$reg['descricao'];
-     echo "Imagem: ".$reg['imagem'];
-	 echo "Quantidade: ".$reg['quantidade']."<hr></div>";
-	 echo"</div>";
+	 
 	 	 
 	}
 	
@@ -71,9 +75,7 @@
 
 
 
-<footer>
-    <div id="rodape"><div class="nav-footer-user-info nav-bounds"><div class="nav-footer-info-wrapper"><div class="nav-footer-primaryinfo"><small class="nav-footer-copyright">Copyright ©&nbsp;1999-2022 Ebazar.com.br LTDA.</small><nav class="nav-footer-navigation"><a href="https://careers-meli.mercadolibre.com/pt?utm_campaign=site-mlb&amp;utm_source=mercadolibre&amp;utm_medium=mercadolibre">Trabalhe conosco</a><a href="https://www.mercadolivre.com.br/ajuda/Termos-e-condicoes-gerais-de-uso_1409">Termos e condições</a><a href="https://www.mercadolivre.com.br/privacidade">Como cuidamos da sua privacidade</a><a href="https://www.mercadolivre.com.br/ajuda">Contato</a></nav></div><p class="nav-footer-secondaryinfo">CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Cold.</p></div><div class="nav-footer-downloadapp-wrapper"><a class="nav-footer-downloadapp" target="_blank" id="footer-applink" href="https://www.mercadolivre.com.br/l/app"><i class="nav-icon nav-icon-downloadapp"></i </div>
-</footer>
+
 </body>
 
 </html>
